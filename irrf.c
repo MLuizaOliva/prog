@@ -64,20 +64,10 @@ int main() {
 
     salarioLiquido = salario - irrf - inss + valeTransporte + valeRefeicao;
 
-    printf("Faixa: %d\n", faixa);
-    printf("Imposto a ser pago: R$ %.2f\n", irrf);
-    printf("Contribuicao INSS: R$ %.2f\n", inss);
-    printf("FGTS: R$ %.2f\n", fgts);
-    printf("vale transporte: R$ %.2f\n", valeTransporte);
-    printf("vale refeicao: R$ %.2f\n", valeRefeicao);
-    printf("Salario liquido do funcionario: R$ %.2f\n", salarioLiquido);
-
-    printf("\nCustos do empregador:\n");
-    printf("RAT: R$ %.2f\n", rat);
-    printf("Sistema S: R$ %.2f\n", sistemaS);
-    printf("Salario Educacao: R$ %.2f\n", salarioEducacao);
-    printf("Custo total do empregador: R$ %.2f\n", salarioLiquido + rat + sistemaS + salarioEducacao);
-
+    printf("Faixa: %d\nImposto a ser pago: R$ %.2f\nContribuicao INSS: R$ %.2f\nFGTS: R$ %.2f\nvale transporte: R$ %.2f\nvale refeicao: R$ %.2f\nSalario liquido do funcionario: R$ %.2f\n\nCustos do empregador:\nRAT: R$ %.2f\nSistema S: R$ %.2f\nSalario Educacao: R$ %.2f\nCusto total do empregador: R$ %.2f\n",
+        faixa, irrf, inss, fgts, valeTransporte, valeRefeicao, salarioLiquido, rat, sistemaS, salarioEducacao, salarioLiquido + rat + sistemaS + salarioEducacao);
+    
     return 0;
 }
+
 
