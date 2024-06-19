@@ -2,7 +2,6 @@
 ◦ Array de inteiros com dimensões (10, 20, 5);
 ◦ Preencha com valores sequenciais;
 ◦ Apresente os valores.*/
-]// Parte 6
 
 #include <stdio.h>
 

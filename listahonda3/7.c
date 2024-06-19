@@ -4,8 +4,6 @@
 ◦ Uma visualização mínima das palavras, espaços a serem preenchidos e as charadas, figura ao lado;
 ◦ Podendo utilizar palavras e suas charadas previamente definidas;*/
 
-// Parte 7
-
 #include <stdio.h>
 #include <string.h>
 
@@ -24,8 +22,8 @@ void printBoard(char board[SIZE][SIZE]) {
 
 int main() {
     char board[SIZE][SIZE];
-    char words[WORD_COUNT][SIZE] = {"apple", "banana", "cherry"};
-    char clues[WORD_COUNT][SIZE] = {"A red fruit", "A long yellow fruit", "A small red fruit"};
+    char words[WORD_COUNT][SIZE] = {"Maça", "banana", "Cereja"};
+    char clues[WORD_COUNT][SIZE] = {"Amora", "Abacaxi", "Morango"};
 
     // Inicializando o tabuleiro com espaços vazios
     for (int i = 0; i < SIZE; i++) {

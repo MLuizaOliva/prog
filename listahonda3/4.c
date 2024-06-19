@@ -2,7 +2,6 @@
 mas utilize um array 
 bi-dimensional com número de elementos iguais nas dimensões;*/
 
-// Parte 4
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -73,7 +72,7 @@ int main() {
     float arr[SIZE][SIZE];
     preencheArray(arr);
 
-    printf("Média: %.2f\n", calculaMedia(arr));
+    printf("Media: %.2f\n", calculaMedia(arr));
     printf("Mediana: %.2f\n", calculaMediana(arr));
     printf("Desvio Padrão: %.2f\n", calculaDesvioPadrao(arr));
 
