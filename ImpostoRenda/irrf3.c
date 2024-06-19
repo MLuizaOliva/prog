@@ -55,7 +55,7 @@ int main() {
 
     // Beneficios
     valeTransporte = salario * 0.06; // O valor do vale-transporte é de 6% do salário
-    valeRefeicao = 10 * 22; // Supondo um valor de R$20 por dia útil
+    valeRefeicao = 20 * 21; // Supondo um valor de R$20 por dia útil, sendo que o mês tem 21 dias úteis
 
     // Custo do empregador
     rat = salario * 0.03; // Supondo uma alíquota de 3%
@@ -66,7 +66,7 @@ int main() {
 
     printf("Faixa: %d\nImposto a ser pago: R$ %.2f\nContribuicao INSS: R$ %.2f\nFGTS: R$ %.2f\nvale transporte: R$ %.2f\nvale refeicao: R$ %.2f\nSalario liquido do funcionario: R$ %.2f\n\nCustos do empregador:\nRAT: R$ %.2f\nSistema S: R$ %.2f\nSalario Educacao: R$ %.2f\nCusto total do empregador: R$ %.2f\n",
         faixa, irrf, inss, fgts, valeTransporte, valeRefeicao, salarioLiquido, rat, sistemaS, salarioEducacao, salarioLiquido + rat + sistemaS + salarioEducacao);
-    
+
     return 0;
 }
 
