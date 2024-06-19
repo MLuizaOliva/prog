@@ -1,0 +1,23 @@
+
+1 Defina, descreva e explique:
+◦ Array: Um array é uma estrutura de dados que armazena uma coleção
+de elementos (valores ou variáveis),cada um identificado por pelo menos um índice ou chave. 
+Os arrays são usados para armazenar vários valores em uma única variável, 
+em vez de declarar variáveis separadas para cada valor.
+
+◦ Armazenamento em memória de um Array unidimensional e bidimensional:
+Armazenamento em memória de um Array unidimensional e bidimensional: Em um array unidimensional, os elementos são armazenados em uma sequência contínua na memória.
+Cada elemento no array tem um índice, começando em 0 e aumentando de um em um. Em um array bidimensional (ou matriz), 
+os elementos são armazenados em uma tabela de linhas e colunas. Na memória, no entanto, esses elementos ainda são armazenados em uma sequência contínua. 
+A localização de um elemento é determinada por uma combinação de seu número de linha e coluna.
+
+◦ String e suas funções de manipulações:
+String e suas funções de manipulações: Uma string é uma sequência de caracteres.
+Em muitas linguagens de programação, as strings são tratadas como um tipo de dado e
+têm várias funções associadas para manipulá-las. 
+Algumas funções comuns de manipulação de string incluem length
+(para obter o comprimento de uma string), substring (para extrair uma parte da string),
+replace (para substituir partes da string), toUpperCase e 
+toLowerCase (para alterar a capitalização), e trim (para remover espaços em
+branco no início e no final).
+As funções exatas disponíveis dependem da linguagem de programação que você está usando.

@@ -1,0 +1,76 @@
+// questão 3
+/*                                             LExt
+A linguagem LExt(Linguagem extensa) é uma linguagem estruturada e de alto nível.
+Ela foi desenvolvida pela dev Luiza, a qual se baseou na linguagem C e no
+pseudocódigo. A lingugagem LExt é  a abreviação de Linguagem extensa, a qual sua
+principal caracterista é descrever por EXTENSO tudo que está a fazer no código.
+Ela veio como forma de facilitar o aprendizado na lógica de programação, já que
+alguns estudos mostram que escrever por extenso ajuda a ter uma melhor absorção
+do conhecimento. Uma linguagem de programação estruturada é um tipo de linguagem
+de programação que facilita a criação de programas que são claros, legíveis e
+fáceis de manter, assim como a LExt.
+
+palavras/frases chave:
+insira biblioteca entrada e saida
+variável: Usado para declarar uma variável.
+é igual a : Usado para atribuir um valor a uma variável.
+receba do usuario: Usado para mostrar e receber um valor do usuário.
+mais, menos, vezes, dividido por: Operadores matemáticos.
+se, então, fim se : Estruturas condicionais.
+mostrar no terminal : Usado para imprimir algo na tela.
+fim : Usado para encerrar um bloco de código.
+
+*Operadores Matemáticos
+mais +
+menos -
+vezes *
+dividido /
+
+*Condicionais
+se
+então
+senão
+fim  do se
+enquanto : estrutura de repetição
+faça : validador da condicional anterior
+fim repetição: fim da estrutura de repetição
+
+> : maior que
+< : menor que
+>= : maior ou igual
+<= : menor ou igual
+
+com esses conceitos, você pode começar a programar em LExt!
+
+*/
+
+// exemplo da aplicação
+
+/*
+
+insira biblioteca Entrada e Saída
+
+variável x
+receba do usuario x
+variável y
+receba do usuario y
+y é igual a 20
+
+se x mais y é maior que 25 então
+    mostre na tela x mais y
+senão
+    escreva y menos x
+fim do se
+
+variável z
+receba do usuario z
+
+
+enquanto z é menor que 15 faça
+    mostre no terminal z
+    z é igual a z mais 1
+senao mostre na tela z é invalido
+fim repetição
+
+fim
+*/
